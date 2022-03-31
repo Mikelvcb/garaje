@@ -1,0 +1,73 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id=".8fFMr30Kn]+hoS|;ZJ`" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="servoservosetangle" id="GZ~+^#R3@8kve}MbP:Zn"><field name="servo">servos.P0</field><value name="degrees"><shadow type="protractorPicker" id="W}+RX}{HpPCnTJIob?F0"><field name="angle">180</field></shadow></value><next><block type="device_show_leds" id="Q0kX3S:D#~,*LegiA(/0"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_pause" id="w=617[IhtJ[xOC#B,dl="><value name="pause"><shadow type="timePicker" id="sZVb!iZ.P|=w4Gm$43;_"><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="XJv1}r5#/;Pay]mwW@B^"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # . . #
+        `</field><next><block type="device_pause" id="b?YSFID*WLeXnn;mx[%."><value name="pause"><shadow type="timePicker" id="}f1yhVNVeJ.FGk%IW`wS"><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="C@oo-h!^PXv^o#GQs#3("><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # . . # 
+        # # . . #
+        `</field><next><block type="device_pause" id="fL(UOD`1.(]eW$mYBlF-"><value name="pause"><shadow type="timePicker" id="|{!,rY5hB1pJETe=%0.:"><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="B$e?LU|#$=sKrY?^4/)@"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        . . . . . 
+        # # . . # 
+        # # . . #
+        `</field><next><block type="device_pause" id="Cjii4Z+WXTYAKO3cPQ-!"><value name="pause"><shadow type="timePicker" id="s2P?{`%.N$^`.+~y6y)7"><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="~F_l/|ZGgjOos@Qf)h+`"><field name="LEDS">`
+        # # # # # 
+        . . . . . 
+        . . . . . 
+        # # . . # 
+        # # . . #
+        `</field><next><block type="device_pause" id="_!RG||Q.rcbqTC@.k@P_"><value name="pause"><shadow type="timePicker" id="CY!6[8;C~5y}yM5)=x]O"><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="9z~epR7g%NoD3^]k2=Gw"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # # . . # 
+        # # . . #
+        `</field><next><block type="device_pause" id="v~*DaU7RRN[4AviII%cq"><value name="pause"><shadow type="timePicker" id="`_$]~7zfdw+BuJGFRCw,"><field name="ms">2000</field></shadow></value><next><block type="device_print_message" id="24VvD[+Z(%/Fl3JW7z_a"><value name="text"><shadow type="text" id="_nr9,e3pEp5j$uq8!0]k"><field name="TEXT">GARAJE ABIERTO</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_forever" id="fKNr?s0qCsOkkexC=SRN" x="383" y="33"><statement name="HANDLER"><block type="controls_if" id="(}[*O-h||eq#N^S+wj33"><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="t[166,,5+^ksFxP1*aS6"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="fnhOQJtFmB/^GZPBTEA/"/></value><value name="B"><shadow type="math_number" id="9M$@_=m.`76}$,6r4sEg"><field name="NUM">30</field></shadow></value></block></value><statement name="DO0"><block type="servoservosetangle" id="mW%k(5OIywP*{%icD:EO"><field name="servo">servos.P0</field><value name="degrees"><shadow type="protractorPicker" id="4EO:cA)s$h/_e8^WDhHb"><field name="angle">180</field></shadow></value></block></statement></block></statement></block><block type="device_button_event" id="v_2tUU0?9]d2Xnmk`EiQ" x="856" y="12"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_print_message" id="Qto.[)Y%`i-?dMKQm1#U"><value name="text"><shadow type="text" id="eYKPk:|Y7,c}kor3L7d0"><field name="TEXT">CERRANDO PUERTA</field></shadow></value><next><block type="servoservosetangle" id="REa!i/yW:,s/5B(:{3Vh"><field name="servo">servos.P0</field><value name="degrees"><shadow type="protractorPicker" id="!!1Qdp#|mmv167p7^Jnp"><field name="angle">145</field></shadow></value><next><block type="device_pause" id="8v,@xEq6zrZJy)b,Vz}a"><value name="pause"><shadow type="timePicker" id="Z:DuT}h5AT0f:Huyo3Pg"><field name="ms">2000</field></shadow></value><next><block type="device_show_leds" id="or*kmb(Xc!%3a;pmCiHj"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # # . . # 
+        # # . . #
+        `</field><next><block type="device_pause" id="@=D^YZbaKFC9^BKbWuz1"><value name="pause"><shadow type="timePicker" id="?;1COu@wOX`+qs?5L_,x"><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="pxq^:u8*=)z2]J*S{!x("><field name="LEDS">`
+        # # # # # 
+        . . . . . 
+        . . . . . 
+        # # . . # 
+        # # . . #
+        `</field><next><block type="device_pause" id="nX2k=`=-.A^o$E2#ELpm"><value name="pause"><shadow type="timePicker" id="E}2pz_*4sQa(SRg*x;h2"><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="s_?_$tWFCQ7{g1/poTor"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        . . . . . 
+        # # . . # 
+        # # . . #
+        `</field><next><block type="device_pause" id="_Wt|*E+J:eF4r~NR-oF;"><value name="pause"><shadow type="timePicker" id="#z(2`xJkvrXJ_DiQ:`Xc"><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id=".hN$M~0%%O!b1LmvmsC^"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # . . # 
+        # # . . #
+        `</field><next><block type="device_pause" id="osz4,6f@*fcTL2o-2L=1"><value name="pause"><shadow type="timePicker" id="gR9CXoBNc,I~wMOVm@`/"><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="nQWp]Lw(PIPYuAdmGtLr"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # . . #
+        `</field><next><block type="device_pause" id="B[dMd#p4+fz2q;k4mCY("><value name="pause"><shadow type="timePicker" id="rw+x::oyJh#_UGOhrNPR"><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="8lZc:C![PKu@_d(3CC3W"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_pause" id="Nvo.MwV+OH@K7hjE5(o/"><value name="pause"><shadow type="timePicker" id=",To=.{;@N2sv`C;)B|uO"><field name="ms">2000</field></shadow></value><next><block type="device_print_message" id="_l@XWes(?MJyn+}QlbvP"><value name="text"><shadow type="text" id="VXYPlm`MssIin^tTPqeO"><field name="TEXT">GARRAJE CERRADO</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
